@@ -321,7 +321,7 @@
     right: 10px;
     height: 48px;
     cursor: pointer;
-    z-index: 3;
+    z-index: 4;
     border-radius: 50%;
     mix-blend-mode: luminosity;
   }
@@ -419,7 +419,7 @@
             transition-delay: .5s;
   }
   .header #nav:checked ~ .nav-wrapper {
-    z-index: 2;
+    z-index: 3;
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
