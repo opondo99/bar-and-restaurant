@@ -2,6 +2,7 @@ import React from 'react';
 import image1 from '../images/header-food-image.jpg';
 import image2 from '../images/cocktail2.jpg';
 import image3 from '../images/food-image-with-dark-bg.jpg';
+// import { Link } from 'reac'
 import './header.css';
 
 
@@ -15,14 +16,33 @@ const Header = () => {
                     <a href="https://twitter.com">Twitter</a>
                 </div>
 
-                <a href="#">
+                <div className="dark-bg"/>
+            
                 <div className="intro-text">
-                    <h1>Big Mark</h1>
-                    <h2>Bar and Restaurant</h2>
+                    <a href="#">
+                        <h1>Big Mark</h1>
+                        <h2>Bar and Restaurant</h2>
+                    </a>
                 </div>
-                </a>
+                
             </div>
+            <input type="checkbox" id="nav" class="hidden"/>
+
+            <label for="nav" class="nav-btn">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+            </label>
+
+            <div className="nav-wrapper">
+                    <ul>
+                        <a href="#">Home</a>
+                        <a href="#">Projects</a>
+                        <a href="#">Contact</a>
+                    </ul>
+                </div>
             <div className="right">
+                
                 <nav>
                     <a href="#">Home</a>
                     <a href="#">About</a>
@@ -30,6 +50,9 @@ const Header = () => {
                     <a href="#">Bar</a>
                     <a href="#">Contact</a>
                 </nav>
+                
+
+                
                 <div className="photo-grid">
                     <div className="long-image"/>
                     <div className="short-image1"/>

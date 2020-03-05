@@ -172,4 +172,16 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+
+@media only screen and (max-width: 860px) {
+  .restaurant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=restaurant.css.map */

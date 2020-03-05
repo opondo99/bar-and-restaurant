@@ -26,6 +26,8 @@
             // opacity: .6;
             grid-column: 2 / span 2;
             grid-row: 1 / span 4;
+            background-repeat: no-repeat;
+            background-size: cover;
             background-image: url('../images/bar-section-hero.jpg');
         }
 
@@ -119,4 +121,12 @@
         }
     }
 
+}
+
+
+@media only screen and (max-width: 860px) {
+    .Bar {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
