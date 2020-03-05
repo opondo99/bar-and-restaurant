@@ -54,6 +54,7 @@
   grid-row: 4 / 5;
   background-image: url("../images/cocktail1.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .Bar .Bar__right .Bar__card_text {
